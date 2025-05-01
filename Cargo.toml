@@ -1,0 +1,9 @@
+[package]
+name = "aptsync"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+rusqlite = { version = "0.29", features = ["bundled"] }
+dirs = "5.0"
